@@ -1,0 +1,138 @@
+@charset "EUC-KR";
+/* 헤더 css */
+body {
+    margin: 0;
+}
+#ALL{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+#allview{
+    width: 100%;
+    height: 100%;
+}
+#header{
+    width: 100%;
+    height: 39px;
+    background-color: #faf7fa;
+    position: fixed;
+}
+#header-title {
+    text-align: right;
+}
+#header-title a {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+#header-title h2 {
+  margin: 0;
+  font-weight: 500;
+  color: violet;
+  /* font-family: 'Dancing Script', cursive; */
+}
+#allview #menuList {
+    overflow: hidden;
+    overflow-y: hidden;
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 100%;
+    _margin-right: -3px;
+    /* border-right: 1px solid #e1e1e1; */
+    top: 37px;
+    position: fixed;
+}
+#allview #main-content {
+    overflow: hidden;
+    overflow-y: hidden;
+    height: 100%;
+    zoom: 1;
+    border-left: 1px solid #e1e1e1;
+    margin-left: 295px;
+    margin-top: 2%;
+}
+/* 메뉴바 css */
+#menubar {
+    display: inline-block;
+    height: 100%;
+}
+#title-img{
+    width: 47px;
+}
+#menubar-title{
+font-size: 25px;
+    font-weight: bold;
+    color: #073064;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+#chaptertitle {
+    font-size: 18px;
+    color: #007886;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+#articletitle {
+    font-size: 15px;
+    font-weight: bold;
+    color: #31659c;
+    padding-top: 5px;
+    margin-left: 15px;
+}
+#articletitle a {
+    font-family: "dotum";
+    font-size: 15px;
+    color: #146625;
+    text-decoration: none;
+}
+/* 법령 내용 css */
+body {
+    font-size: 12px;
+    color: #000000;
+    font-family: "dotum";
+    line-height: 160%;
+}
+.lawname {
+    font-size: 14px;
+    font-weight: bold;
+    color: #073064;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+.history {
+    font-size: 12px;
+    text-align: right;
+    color: #3667c1;
+}
+.chapter {
+    font-size: 14px;
+    color: #007886;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+}
+.article {
+    font-size: 12px;
+    font-weight: bold;
+    color: #31659c;
+    padding-top: 15px;
+}
+.article td {
+    font-size: 12px;
+    font-weight: bold;
+    color: #31659c;
+}
+img {
+    border: none;
+}
+.none {
+    margin-left: 23px;
+}
